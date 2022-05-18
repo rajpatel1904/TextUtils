@@ -7,6 +7,7 @@ def index(request):
      return render(request,'index.html')
 def analyze(request):
      # get the text
+     # this is analyze funtion
      djtext=(request.GET.get('text','default'))
      removepunc=(request.GET.get('removepunc','off'))
 
